@@ -1,0 +1,13 @@
+body{
+    margin:0;
+    padding:0;
+}
+h1{
+    color:#fff;
+    text-transform:uppercase;
+    text-align:center;
+}
+.header-wrapper{
+    height:200px;
+    background:#3a65f2;
+}
