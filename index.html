@@ -1,14 +1,296 @@
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <script  type="text/javascript" src="script.js"></script>
   </head>
   <body>
     <div class="header-wrapper">
-       <div class="header">
-        <div id="site-logo"></div>
-        <h1 class="main-title">Premium Phones & Accosories</h1>
-       </div>
+        <div class="header">
+          <div id="site-logo"></div>
+          <h1 class="main-title">Premium Phones & Accosories</h1>
+
+          <ul id="sub-nav-wrapper">
+            <li class="sub-menu shopping-cart"><a></a></li>
+            <li class="sub-menu"><a>Register</a></li>
+            <li class="sub-menu"><a>User Login</a></li>
+          </ul>
+
+          <div id="main-menu">
+            <li class="menu-item"><a>Shop</a></li>
+            <li class="menu-item"><a>Contact Us</a></li>
+          </div>
+
+        </div>
     </div>
-    <h1>Test</h1>
+    <div class="slider-wrapper">
+        <div class="slider slider-1 fade"></div>
+        <div class="slider slider-2 fade"></div>
+    </div>
+    <div class="items-wrapper">
+      <div id="search" class="items-inner-wrapper">
+        <div class="search-wrapper">
+          <input type="search" id="site-search" name="q" />
+          <button>Search</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="items-wrapper has-border featured">
+      <div id="featured" class="items-inner-wrapper">
+        <h3 class="section-title">Featured Products</h3>
+        <div class="items-wrapper">
+          <div class="featured-item item">
+            <div class="item-image">
+              <img src="images/products/phones/samsung/samsung1.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>SAMSUNG Galaxy S24</h4>
+              <div class="availability">Available Now</div>
+              <div class="price">Rs.15,000.00</div>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="featured-item item">
+            <span class="new-batch">New</span>
+            <div class="item-image">
+              <img src="images/products/phone_accessories/huawei/huawei_p40.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>Huawei P40 Pro Crystal Clear Shockproof TPU Bumper Cell Mobile Phone Case Cover</h4>
+              <div class="availability">Available Now</div>
+              <div class="price">Rs.800.00</div>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="featured-item item">
+            <div class="item-image">
+              <img src="images/products/phones/realme/realme-note.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>Realme Note 50</h4>
+              <div class="availability">Available Now</div>
+              <div class="price">Rs.18,000.00</div>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="featured-item item">
+            <span class="new-batch">New</span>
+            <div class="item-image">
+              <img src="images/products/phones/honor/honor-2.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>HONOR X9b</h4>
+              <div class="availability">Available Now</div>
+              <div class="price">Rs.35,000.00</div>
+              <button>Buy Now</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--mobile phone-->
+    <div class="items-wrapper has-border">
+      <div id="mobiles" class="items-inner-wrapper">
+        <h3 class="section-title">Mobile Phones</h3>
+        <div class="items-wrapper">
+          <div class="featured-item item">
+            <div class="item-image">
+              <img src="images/products/phones/samsung/samsung1.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>SAMSUNG Galaxy S24</h4>
+              <div class="availability">Available Now</div>
+              <div class="price">Rs.15,000.00</div>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="featured-item item">
+            <span class="new-batch">New</span>
+            <div class="item-image">
+              <img src="images/products/phones/honor/honor-1.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>HONOR 90 Smartphone 5G</h4>
+              <div class="availability">Available Now</div>
+              <div class="price">Rs.25,000.00</div>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="featured-item item">
+            <div class="item-image">
+              <img src="images/products/phones/realme/realme-note.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>Realme Note 50</h4>
+              <div class="availability">Available Now</div>
+              <div class="price">Rs.18,000.00</div>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="featured-item item">
+            <span class="new-batch">New</span>
+            <div class="item-image">
+              <img src="images/products/phones/honor/honor-2.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>HONOR X9b</h4>
+              <div class="availability">Available Now</div>
+              <div class="price">Rs.35,000.00</div>
+              <button>Buy Now</button>
+            </div>
+          </div>
+
+          <div class="featured-item item">
+            <div class="item-image">
+              <img src="images/products/phones/samsung/samsung1.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>SAMSUNG Galaxy S24</h4>
+              <div class="availability">Available Now</div>
+              <div class="price">Rs.15,000.00</div>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="featured-item item">
+            <span class="new-batch">New</span>
+            <div class="item-image">
+              <img src="images/products/phones/honor/honor-1.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>HONOR 90 Smartphone 5G</h4>
+              <div class="availability">Available Now</div>
+              <div class="price">Rs.25,000.00</div>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="featured-item item">
+            <div class="item-image">
+              <img src="images/products/phones/realme/realme-note.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>Realme Note 50</h4>
+              <div class="availability">Not Available</div>
+              <div class="price">Rs.18,000.00</div>
+              <span class="sold-out">Sold Out</span>
+            </div>
+          </div>
+          <div class="featured-item item">
+            <span class="new-batch">New</span>
+            <div class="item-image">
+              <img src="images/products/phones/honor/honor-2.jpg" />
+            </div>
+            <div class="item-details">
+              <h4>HONOR X9b</h4>
+              <div class="availability">Available Now</div>
+              <div class="price">Rs.35,000.00</div>
+              <button>Buy Now</button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!--accosories-->
+    <div class="items-wrapper">
+      <div id="accessories" class="items-inner-wrapper">
+        <h3 class="section-title">phone Accessories</h3>
+        <div class="featured-item item">
+          <div class="item-image">
+            <img src="images/products/phone_accessories/huawei/huawei_p40.jpg" />
+          </div>
+          <div class="item-details">
+            <h4>Huawei P40 Pro Crystal Clear Shockproof TPU Bumper Cell Mobile Phone Case Cover</h4>
+            <div class="availability">Available Now</div>
+            <div class="price">Rs.800.00</div>
+            <button>Buy Now</button>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+    <!--Tetimonial-->
+    <div class="items-wrapper reviews">
+      <div id="testimonials" class="items-inner-wrapper">
+        <h3 class="section-title">Testimonials</h3>
+        <ul id="reviews">
+          <li class="review-item">
+              <div class="image-block">
+                <img src="images/user.png"/>
+              </div>
+              <div class="review-cont">
+                  <h3>Sample Title</h3>
+                  <p>SAmple content goes here</p>
+              </div>
+          </li>
+          <li class="review-item">
+            <div class="image-block">
+              <img src="images/user.png"/>
+            </div>
+            <div class="review-cont">
+                <h3>Sample Title</h3>
+                <p>SAmple content goes here</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="image-block">
+              <img src="images/user.png"/>
+            </div>
+            <div class="review-cont">
+                <h3>Sample Title</h3>
+                <p>SAmple content goes here</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <div class="image-block">
+              <img src="images/user.png"/>
+            </div>
+            <div class="review-cont">
+                <h3>Sample Title</h3>
+                <p>SAmple content goes here</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="footer-wrapper">
+      <div class="footer">
+        <div id="main-menu">
+          <li class="menu-item"><a>Shop</a></li>
+          <li class="menu-item"><a>Contact Us</a></li>
+        </div>
+          <p>No 18, Kaluthara Rd,Matugama</p>
+      </div>
+    </div>
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("slider");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
+
   </body>
 </html>
