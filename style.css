@@ -99,9 +99,12 @@ a{
         font-size:12px;
         cursor:pointer;
     }
-
+    #sub-nav-wrapper li.active a,
     #sub-nav-wrapper li a:hover{
         color:#ff0000;
+    }
+    #sub-nav-wrapper li.active a{
+        cursor: default;
     }
     #sub-nav-wrapper li.shopping-cart{
         position:relative; 
@@ -330,6 +333,7 @@ a{
 /*sub pages*/
 .page-wrapper{
     width:900px;
+    min-height:calc(100vh - 238px);
     margin:0 auto;
     position:relative;
 }
