@@ -341,6 +341,11 @@ a{
         font-size:29px;
         color:#6773ab;
     }
+    .small-text{
+        font-size:12px;
+        display:block;
+        text-align:right;
+    }
     .columns-wrapper{
         width:100%;
         display:inline-block;

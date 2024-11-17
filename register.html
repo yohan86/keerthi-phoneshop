@@ -12,8 +12,8 @@
 
           <ul id="sub-nav-wrapper">
             <li class="sub-menu shopping-cart"><a></a></li>
-            <li class="sub-menu"><a href="./register.html">Register</a></li>
-            <li class="sub-menu active"><a>User Login</a></li>
+            <li class="sub-menu active"><a>Register</a></li>
+            <li class="sub-menu"><a href="./login.html">User Login</a></li>
           </ul>
 
           <div id="main-menu">
@@ -24,22 +24,32 @@
         </div>
     </div>
     <div class="page-wrapper">
-        <h2 class="page-title">Login</h2>
+        <h2 class="page-title">Register Form</h2>
         <div class="columns-wrapper contact">
            
-            <div class="columns form login">
+            <div class="columns form register">
                 
                 <form>
                     <div class="field-wrapper">
-                        <label>User Name:</label>
-                        <input type="text" name="name" value="" />
+                        <label>First Name:*</label>
+                        <input type="text" name="firstname" value="" />
                     </div>
                     <div class="field-wrapper">
-                        <label>Password:</label>
-                        <input type="text" name="phone" value="" />
+                        <label>Last Name:</label>
+                        <input type="text" name="lastname" value="" />
                     </div>
+                    <div class="field-wrapper">
+                        <label>Email:*</label>
+                        <input type="text" name="email" value="" />
+                    </div>
+                    <div class="field-wrapper">
+                        <label>City:</label>
+                        <input type="text" name="city" value="" />
+                    </div>
+
                     <div class="field-wrapper button">
-                        <button type="submit">Login</button>
+                        <span class="small-text">* Required Fields</span>
+                        <button type="submit">Submit</button>
                     </div>
 
                 </form>
